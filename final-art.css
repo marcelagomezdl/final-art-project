@@ -1,18 +1,90 @@
+@import "compass/css3";
+
 body {
-	color: white;
-	background-color: black;
-	font-family: avenir next;
+	color: black;
 	font-weight: 100;
-}
+	padding: 0px;
+	margin: 0px;
+  	font-family: 'avenir next';
 
-h1 {
-	font-weight: 100;
-	font-size: 150px;
-}
+  	&:hover {
+   span {
+      display: none; 
+    }
+    p{
+    	display:none;
+    }
 
-#box1 {
-		width: 200px;
-		height: 200px;
-		border: .3px solid white;
-		background-color: black;
+  }
+
 	}
+
+
+span {
+  position: absolute; 
+  top: 100px;
+  left: 100px;
+  color: #000;
+  display: block;
+  }
+
+
+
+
+.header1 {
+	position: absolute;
+	top: 30px;
+	left: 100px;
+	font-weight: 300;
+	font-size: 250px;
+	letter-spacing: 40px;
+	color: black;
+  }
+
+	
+
+.header2 {
+	position: absolute;
+	top: 400px;
+	left: 100px;
+	font-weight: 100;
+	font-size: 50px;
+	color: black;
+	
+	}
+
+
+.header4 {
+	position: absolute;
+	top: 150px;
+	left: 100px;
+	font-weight: 100;
+	font-size: 50px;
+	color: black;
+	
+	}	
+
+.homepage-intro{
+	color: black;
+}	
+
+.locationname{
+	display: inline-block;
+	clear: both;
+	color: black;
+	font-size: 60px;
+	position: absolute;
+	left: 100px;
+	top: 160px;
+	right: 60px;}
+
+
+.locationrow {
+	display: inline-block;
+	clear: both;
+	color: white;
+}	
+
+
+
+
